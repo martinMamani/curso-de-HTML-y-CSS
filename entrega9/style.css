@@ -1,0 +1,22 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.btn-modem{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: all 0.4s;
+}
+
+
+.btn-modem:hover{
+    transform: translateY(-5px);
+    background-color: rgb(63, 81, 202);
+    border-bottom: solid 1px rgb(3, 3, 39);
+    color: white;
+}
